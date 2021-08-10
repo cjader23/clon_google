@@ -81,3 +81,163 @@ nav .nav-right-section img{
 nav .nav-right-section img:hover{
     box-shadow: #A0A7AC 0px 0px 1px 5px;
 }
+
+/*ESTILOS AL MAIN-LOGO*/
+
+main{
+    margin-top: 150px;
+    /*Centra todo el contenido del main*/
+    text-align: center;
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    width: 300px;
+}
+
+/* ESTILOS AL MAIN-INPUT */
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: #a0a7ac 1px solid;
+    /*Para colocar los elementos de forma lineal*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+main .main-input-container:hover{
+   box-shadow: rgb(255, 255, 255) 0px 1px 3px 0px;
+   border-color: #a0a7ac;
+}
+
+main .main-input-container input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    color: #141631;
+}
+
+/*Imágenes del INPUT*/
+main .main-input .search-icon{
+    background-image: url("https://i.dlpng.com/static/png/91009_preview.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .main-input .micro-icon{
+    background-image: url("https://freepngimg.com/download/microphone/70666-voice-microphone-google-search-logo-png-file-hd.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+/*ESTILOS DE LOS BOTONES*/
+
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+main .main-buttons button{
+    height: 36px;
+    background-color: #1a1c36;
+    border: #a0a7ac13 1px solid;
+    font-size: 1.4rem;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+
+main .main-buttons button:hover{
+    box-shadow: rgb(255, 255, 255) 0px 0px 3px 0px;
+    border: #a0a7ac 1px solid;
+}
+
+main .main-buttons button a{
+    color: white;
+}
+
+main .main-buttons button a:hover{
+    color: rgb(235, 235, 235);
+}
+
+/*ESTILOS AL FOOTER*/
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+footer .section1{
+    background-color: #131422;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    display: flex;
+
+}
+
+footer .section1 p{
+    margin-left: 20px;
+    color: white;
+}
+
+footer .section2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #131422;
+}
+
+footer .section2 ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .section2 .footer-left{
+    justify-self: left;
+}
+
+footer .section2 .footer-right{
+    justify-self: right;
+}
+
+footer .section2 ul li a{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
