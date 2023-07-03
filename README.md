@@ -1,2 +1,2 @@
 # clon_google
-Google home clone (www.google.com).
+<h1>Clon de Google</h1>
